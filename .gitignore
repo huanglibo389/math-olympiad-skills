@@ -1,0 +1,28 @@
+.DS_Store
+
+# Private local configuration
+config/local-paths.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# TeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Editor and temporary files
+*.swp
+*.tmp
+*~

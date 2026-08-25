@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学内容流水线"
+  short_description: "提取、配对、审查并交付数学内容"
+  default_prompt: "Use $math-content-pipeline as the artifact orchestration layer. Preserve provenance and per-item status, route nontrivial proof solving or review to $math-olympiad, use $math-olympiad-search only when the source policy allows local retrieval, and distinguish capture, source matching, mathematical verification, formatting, and rendered delivery."

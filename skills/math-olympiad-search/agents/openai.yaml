@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学竞赛本地检索"
+  short_description: "定位本地同类题、标准解法与来源证据"
+  default_prompt: "Use $math-olympiad-search only when local retrieval is allowed and useful. Search the relevant local corpora, return exact file paths, matching evidence, conflicts, and provenance, and label all hits as references rather than proof. Hand mathematical closure to $math-olympiad and batch organization or publication to $math-content-pipeline."

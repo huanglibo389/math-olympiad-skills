@@ -1,0 +1,28 @@
+version: 1
+
+# Copy this file to config/local-paths.yaml and edit the values.
+# The local file is ignored by Git. ${HOME} may be used for portability.
+
+corpora:
+  # Environment fallback: MATH_OLYMPIAD_GENERAL_WIKI
+  general_wiki: "${HOME}/path/to/math-competition-wiki"
+  # Environment fallback: MATH_OLYMPIAD_REFERENCES
+  references: "${HOME}/path/to/obsidian-vault/References"
+  # Environment fallback: MATH_OLYMPIAD_COMBINATORICS_WIKI
+  combinatorics_wiki: "${HOME}/path/to/combinatorics-wiki"
+
+content:
+  # Environment fallback: MATH_CONTENT_OBSIDIAN_VAULT
+  obsidian_vault: "${HOME}/path/to/obsidian-vault"
+  # Environment fallback: MATH_CONTENT_MATH_COMPETITION_WIKI
+  math_competition_wiki: "${HOME}/path/to/math-competition-wiki"
+  # Environment fallback: MATH_CONTENT_NUMBER_THEORY_WIKI
+  number_theory_wiki: "${HOME}/path/to/number-theory-wiki"
+  # Environment fallback: MATH_CONTENT_MATHNET_VAULT
+  mathnet_vault: "${HOME}/path/to/mathnet"
+  # Environment fallback: MATH_CONTENT_TRAINING_DATA
+  training_data: "${HOME}/path/to/training-data"
+
+tools:
+  # Environment fallback: MATH_CONTENT_VIDEO2MD
+  video2md: "${HOME}/.local/bin/video2md"
